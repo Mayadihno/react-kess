@@ -70,7 +70,7 @@ const UploadImage = () => {
               timestamp: serverTimestamp(),
             });
             toast.success("Image Upload Successfully");
-            navigate("/gallery", { replace: true });
+            navigate("/photo-gallery", { replace: true });
           });
         }
       );
@@ -118,7 +118,7 @@ const UploadImage = () => {
               </CardBody>
             </Card>
           ) : (
-            '<Spinner msg={"Image Uploading do not Refresh Page"} />'
+            "Image Uploading do not Refresh Page"
           )}
         </div>
       </div>

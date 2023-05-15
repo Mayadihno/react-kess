@@ -70,7 +70,7 @@ const UploadVideo = () => {
               timestamp: serverTimestamp(),
             });
             toast.success("Video Upload Successfully");
-            navigate("/videos", { replace: true });
+            navigate("/videos-gallery", { replace: true });
           });
         }
       );
@@ -119,7 +119,7 @@ const UploadVideo = () => {
               </CardBody>
             </Card>
           ) : (
-            '<Spinner msg={"Video Uploading do not Refresh Page"} />'
+            'Video Uploading do not Refresh Page"'
           )}
         </div>
       </div>
