@@ -1,0 +1,31 @@
+.videoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+.videos {
+    width: 90%;
+    margin: auto;
+}
+
+.videos h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: black;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:760px) {
+    .videoGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}

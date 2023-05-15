@@ -1,0 +1,13 @@
+.sport__card .image{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: var(--card-bg-02);
+   
+}
+.sport{
+    margin-bottom: 40px;
+}

@@ -1,0 +1,13 @@
+.forget{
+    margin-top: 40px;
+}
+.forget__form{
+    padding-top: 30px;
+    text-align: center;
+}
+.forget__form h1{
+    font-size: 20px;
+}
+.forget__form form{
+    padding-top: 30px;
+}

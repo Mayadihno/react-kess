@@ -1,0 +1,32 @@
+.admin{
+   margin: 30px;
+}
+.upload{
+    margin-top: 150px;
+}
+.upload a{ 
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.adminRight__content{
+    width: 45%;
+    margin: auto;
+}
+
+@media screen and (max-width:765px) {
+    .adminRight__content{
+        width: 99%;
+    }
+    .admin .button{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+}

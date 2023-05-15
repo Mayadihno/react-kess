@@ -1,0 +1,56 @@
+.trendingBackground{
+   background-image:
+   url('https://st2.depositphotos.com/1518767/11356/i/600/depositphotos_113567614-stock-photo-woman-doing-show-jumping.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 70vh;
+   position: relative;
+  
+}
+.trending__head{
+    position: absolute;
+    bottom: 120px;
+    background-color: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.trending__head h2{
+    color: white !important;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.trending__content{
+    width: 85%;
+    margin: auto;
+}
+.trending{
+    margin-bottom: 50px;
+}
+.trending__grid{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+@media screen and (max-width:765px) {
+    .trendingBackground{
+        height: 50vh;
+    }
+    .trending__grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .trending__content{
+        width: 95%;
+    }
+    .trending__head h2{
+        font-size: 20px;
+    }
+}

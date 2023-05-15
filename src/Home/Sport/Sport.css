@@ -1,0 +1,33 @@
+.splide{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.splide__content{
+    width: 85%;
+    margin: auto;
+}
+.splide__content img{
+    height: 200px;
+}
+.splide__text{
+    color: black !important;
+    text-align: center;
+    margin-top: 30px;
+}
+.splide__text h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 15px;
+    font-style: italic;
+}
+@media screen and (max-width:765px) {
+    .splide__content{
+        width: 95%;
+    }
+    .splide__content img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 80px;
+    }
+}

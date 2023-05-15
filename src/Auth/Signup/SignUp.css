@@ -1,0 +1,19 @@
+.signUp__background {
+    background-color: var(--primary-color);
+    padding: 30px;
+    color: white;
+    margin-bottom: 60px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.signUp__content {
+    padding: 0px 10px;
+}
+
+.signUp__content form input {
+    margin-bottom: 10px !important;
+}

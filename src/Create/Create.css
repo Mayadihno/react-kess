@@ -1,0 +1,33 @@
+.create{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.create__content{
+    margin: auto;
+    width: 40%;
+}
+.create-body{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+}
+.divider{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.create__signUp{
+    margin-top: 30px;
+}
+@media screen and (max-width:765px) {
+    .create__content{
+        width: 99%;
+    }
+    .create-body{
+        display: flex;
+        column-gap: 30px;
+    }
+}

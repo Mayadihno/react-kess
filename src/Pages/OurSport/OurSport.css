@@ -1,0 +1,72 @@
+.ourSportBackgroungImage{
+    background-image:
+    url('https://st2.depositphotos.com/1526816/11059/v/600/depositphotos_110597978-stock-illustration-olympics-theme-with-many-type.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+}
+.ourSport{
+    margin-bottom: 50px;
+}
+.oursport__heading{
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.ourSport__text{
+    width: 75%;
+    margin: auto;
+}
+.ourSport__content{
+    width: 90%;
+    margin: auto;
+}
+.ourSport__text p{
+    line-height: 35px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.ourSport__grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    margin-top: 40px;
+}
+.ourSport__grid .image{
+   display: flex;
+   align-items: center;
+   column-gap: 30px;
+   justify-content: center;
+   padding-bottom: 20px;
+   padding-top: 10px;
+   background-color: var(--card-bg-02);
+}
+.ourSport__grid .header{
+    text-align: center;
+}
+@media screen and (max-width:765px) {
+    .ourSport__grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ourSportBackgroungImage{
+        height: 50vh;
+        background-position: center;
+    }
+    .ourSport__text{
+        width: 95%;
+    }
+    .oursport__heading{
+        bottom: 40px;
+    }
+}

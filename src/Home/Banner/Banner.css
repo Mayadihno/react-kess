@@ -1,0 +1,46 @@
+.bannerImage{
+   background-image:url('https://images.squarespace-cdn.com/content/v1/5f101673cdadcf5b738c336b/8ad4bcff-5274-4ecb-9af8-65bc79b9bb2b/2022-08-12_EC2022__Daniel+Kopatsch_066.jpg?format=500w');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 75vh;
+   position: relative;
+   filter: brightness(50%);
+   -webkit-filter: brightness(50%);
+}
+.banner__text{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.banner__text h2{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.banner__text p{
+    color: white!important;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+@media screen  and (max-width:765px){
+    .bannerImage{
+        height: 50vh;
+    }
+    .banner__text{
+        left: 50%;
+        top: 4%;
+    }
+    .banner__text h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
